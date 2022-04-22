@@ -1,5 +1,7 @@
 import * as React from 'react'
-// Step 2: Define your component
+import About from '../components/About'
+import Projects from '../components/Projects'
+
 const IndexPage = () => {
   return (
     <main>
@@ -8,6 +10,8 @@ const IndexPage = () => {
       <h2>My Name is</h2>
       <h3>Coleen Huang</h3>
       <h2>I build things for the web</h2>
+      <Projects />
+      <About />
     </main>
   )
 }
