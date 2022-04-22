@@ -1,10 +1,11 @@
 import * as React from 'react'
+import Layout from '../components/layout'
 import About from '../components/About'
 import Projects from '../components/Projects'
 
 const IndexPage = () => {
   return (
-    <main>
+    <Layout pageTitle="Home">
       <title>Home Page</title>
       <h1>Hello</h1>
       <h2>My Name is</h2>
@@ -12,7 +13,7 @@ const IndexPage = () => {
       <h2>I build things for the web</h2>
       <Projects />
       <About />
-    </main>
+    </Layout>
   )
 }
 // Step 3: Export your component
