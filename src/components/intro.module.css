@@ -1,0 +1,14 @@
+.intro-container {
+    padding-top: 5%;
+}
+.greeting {
+    font-size: 80px;
+}
+
+.name {
+    color: #A64941;
+    font-size: 100px;
+    font-weight: 500;
+    margin: 0
+}
+
