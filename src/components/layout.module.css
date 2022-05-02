@@ -1,5 +1,8 @@
 .container {
-    padding: 0 15%;
+    padding: 0;
     color: #1c1b20;
     font-family: 'Cormorant Garamond', serif;
-  }
+    background-color: #f8f8f8;
+    width: 100%;
+}
+

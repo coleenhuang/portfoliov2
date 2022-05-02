@@ -1,8 +1,8 @@
 import React from 'react';
-import {name, greeting} from './intro.module.css'
+import {introContainer, name, greeting, second} from './intro.module.css'
 
 const Intro =() => (
-    <div>
+    <div className={introContainer}>
       <h1 className={greeting}>Hello!</h1>
       <h2>My Name is</h2>
       <h3 className={name}>Coleen Huang</h3>
