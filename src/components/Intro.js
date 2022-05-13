@@ -1,12 +1,22 @@
 import React from 'react';
-import {introContainer, name, greeting, second} from './intro.module.css'
+import { StaticImage } from "gatsby-plugin-image"
+import {introContainer, name, greeting} from './intro.module.css'
 
 const Intro =() => (
     <div className={introContainer}>
-      <h1 className={greeting}>Hello!</h1>
-      <h2>My Name is</h2>
-      <h3 className={name}>Coleen Huang</h3>
-      <h2>I build things for the web</h2>
+      <div>
+        <p className={greeting}>Hello!</p>
+        <p>My Name is
+        <span className={name}> Coleen Huang </span>
+        </p>
+        <p>I build things for the web</p>
+      </div>
+      <StaticImage src="../images/cupoftea.jpg"
+      alt="A cup of tea"
+      placeholder="blurred"
+      layout="fixed"
+      width={350}
+      height={350} />
     </div>
 )
 
